@@ -1,0 +1,181 @@
+{
+  "num_rooms": 24,
+  "num_common_bssids": 6,
+  "common_bssids": [
+    "ac:2a:a1:7e:df:62",
+    "ac:2a:a1:7e:df:65",
+    "ac:2a:a1:7e:df:61",
+    "ac:2a:a1:7e:df:67",
+    "ac:2a:a1:7e:df:6a",
+    "ac:2a:a1:7e:df:68"
+  ],
+  "min_room_percentage": 0.7,
+  "total_original": 59797,
+  "total_final": 6895,
+  "room_stats": {
+    "couloirB(2e)": {
+      "original": 5659,
+      "after_filter": 831,
+      "after_dedup": 655,
+      "duplicates_removed": 176,
+      "reduction_pct": 88.4
+    },
+    "couloirB": {
+      "original": 2308,
+      "after_filter": 311,
+      "after_dedup": 247,
+      "duplicates_removed": 64,
+      "reduction_pct": 89.3
+    },
+    "PALIER1ER": {
+      "original": 5715,
+      "after_filter": 756,
+      "after_dedup": 595,
+      "duplicates_removed": 161,
+      "reduction_pct": 89.6
+    },
+    "PALIER2E": {
+      "original": 5050,
+      "after_filter": 674,
+      "after_dedup": 527,
+      "duplicates_removed": 147,
+      "reduction_pct": 89.6
+    },
+    "S101A": {
+      "original": 5645,
+      "after_filter": 706,
+      "after_dedup": 565,
+      "duplicates_removed": 141,
+      "reduction_pct": 90.0
+    },
+    "S101B": {
+      "original": 3479,
+      "after_filter": 358,
+      "after_dedup": 301,
+      "duplicates_removed": 57,
+      "reduction_pct": 91.3
+    },
+    "S102A": {
+      "original": 2746,
+      "after_filter": 177,
+      "after_dedup": 148,
+      "duplicates_removed": 29,
+      "reduction_pct": 94.6
+    },
+    "S102B": {
+      "original": 2811,
+      "after_filter": 153,
+      "after_dedup": 133,
+      "duplicates_removed": 20,
+      "reduction_pct": 95.3
+    },
+    "S103B": {
+      "original": 4902,
+      "after_filter": 709,
+      "after_dedup": 554,
+      "duplicates_removed": 155,
+      "reduction_pct": 88.7
+    },
+    "S104": {
+      "original": 5176,
+      "after_filter": 678,
+      "after_dedup": 576,
+      "duplicates_removed": 102,
+      "reduction_pct": 88.9
+    },
+    "S202A": {
+      "original": 1968,
+      "after_filter": 484,
+      "after_dedup": 378,
+      "duplicates_removed": 106,
+      "reduction_pct": 80.8
+    },
+    "S202B": {
+      "original": 2148,
+      "after_filter": 570,
+      "after_dedup": 447,
+      "duplicates_removed": 123,
+      "reduction_pct": 79.2
+    },
+    "S203A": {
+      "original": 4278,
+      "after_filter": 619,
+      "after_dedup": 486,
+      "duplicates_removed": 133,
+      "reduction_pct": 88.6
+    },
+    "S203B": {
+      "original": 3795,
+      "after_filter": 580,
+      "after_dedup": 460,
+      "duplicates_removed": 120,
+      "reduction_pct": 87.9
+    },
+    "S204A": {
+      "original": 1898,
+      "after_filter": 533,
+      "after_dedup": 423,
+      "duplicates_removed": 110,
+      "reduction_pct": 77.7
+    },
+    "S204B": {
+      "original": 2219,
+      "after_filter": 512,
+      "after_dedup": 400,
+      "duplicates_removed": 112,
+      "reduction_pct": 82.0
+    }
+  },
+  "bssid_coverage": {
+    "ac:2a:a1:7e:df:62": 16,
+    "ac:2a:a1:7e:df:65": 16,
+    "ac:2a:a1:7e:df:61": 16,
+    "ac:2a:a1:7e:df:67": 16,
+    "ac:2a:a1:7e:df:6a": 16,
+    "ac:2a:a1:7e:df:68": 16,
+    "ac:2a:a1:7e:df:6d": 15,
+    "f8:6b:d9:01:8e:e8": 15,
+    "ac:2a:a1:7e:df:6e": 15,
+    "f8:6b:d9:01:8e:e1": 14,
+    "f8:6b:d9:01:8e:ea": 14,
+    "e4:aa:5d:bf:25:51": 14,
+    "de:4d:df:1f:8d:fd": 14,
+    "e4:aa:5d:bf:25:52": 14,
+    "f8:6b:d9:01:93:62": 14,
+    "e4:aa:5d:bf:25:55": 14,
+    "f8:6b:d9:01:8e:ee": 14,
+    "f8:6b:d9:01:8e:e7": 14,
+    "e4:aa:5d:bf:25:58": 14,
+    "f8:6b:d9:01:8e:ed": 14,
+    "f8:6b:d9:01:93:67": 13,
+    "f8:6b:d9:01:8e:e2": 13,
+    "f8:6b:d9:01:93:6e": 13,
+    "e4:aa:5d:fd:3e:e2": 13,
+    "f8:6b:d9:01:93:65": 13,
+    "e4:aa:5d:fd:3e:e7": 13,
+    "e4:aa:5d:fd:3e:e1": 13,
+    "e4:aa:5d:fd:3e:ea": 13,
+    "f8:6b:d9:01:93:61": 13,
+    "f8:6b:d9:01:93:6a": 13,
+    "f8:6b:d9:01:93:6d": 13,
+    "f8:6b:d9:01:93:68": 13,
+    "f8:6b:d9:01:85:28": 13,
+    "f8:6b:d9:01:8e:e5": 13,
+    "f8:6b:d9:01:85:2a": 13,
+    "e4:aa:5d:bf:25:5a": 13,
+    "e4:aa:5d:fd:3e:e8": 13,
+    "f8:6b:d9:01:85:27": 13,
+    "e4:aa:5d:fd:3e:e5": 13,
+    "f8:6b:d9:01:85:2d": 13,
+    "e4:aa:5d:bf:25:57": 13,
+    "f8:6b:d9:01:85:2e": 13,
+    "e4:aa:5d:bf:25:5e": 12,
+    "f8:6b:d9:95:d8:85": 12,
+    "f8:6b:d9:01:85:21": 12,
+    "f8:6b:d9:01:85:22": 12,
+    "f8:6b:d9:95:d8:87": 12,
+    "f8:6b:d9:01:85:25": 12,
+    "e4:aa:5d:bf:25:5d": 12,
+    "f8:6b:d9:95:d8:81": 12
+  }
+}

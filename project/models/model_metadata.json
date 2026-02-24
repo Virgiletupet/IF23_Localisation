@@ -1,0 +1,35 @@
+{
+  "feature_names": [
+    "ac:2a:a1:7e:df:61",
+    "ac:2a:a1:7e:df:62",
+    "ac:2a:a1:7e:df:65",
+    "ac:2a:a1:7e:df:67",
+    "ac:2a:a1:7e:df:68",
+    "ac:2a:a1:7e:df:6a"
+  ],
+  "class_names": [
+    "PALIER1ER",
+    "PALIER2E",
+    "S101A",
+    "S101B",
+    "S102A",
+    "S102B",
+    "S103B",
+    "S104",
+    "S202A",
+    "S202B",
+    "S203A",
+    "S203B",
+    "S204A",
+    "S204B",
+    "couloirB",
+    "couloirB(2e)"
+  ],
+  "train_score": 0.9641873278236914,
+  "test_score": 0.731404958677686,
+  "cv_score_mean": 0.7189891355692016,
+  "cv_score_std": 0.02132779727629943,
+  "n_samples_train": 726,
+  "n_samples_test": 242,
+  "n_features": 6
+}
