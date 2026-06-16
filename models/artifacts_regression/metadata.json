@@ -1,0 +1,22 @@
+{
+  "type": "IntraZoneRegressor",
+  "n_bssid": 52,
+  "bounds_x": [
+    -1.0,
+    4.0
+  ],
+  "bounds_y": [
+    0.0,
+    7.0
+  ],
+  "missing_value": 0.0,
+  "best_model": "ExtraTrees",
+  "best_k_features": 52,
+  "best_test_mae_m": 1.1923610969099878,
+  "best_test_median_m": 1.1480893492974742,
+  "best_test_p90_m": 2.18425216996284,
+  "best_test_max_m": 2.825049778322499,
+  "n_points": 46,
+  "n_bssid_total": 52,
+  "source_csv": "data/regression/dataset_regression.csv"
+}

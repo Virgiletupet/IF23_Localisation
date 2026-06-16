@@ -1,0 +1,30 @@
+{
+  "feature_scope": "SSID|BSSID compose",
+  "model_name": "Voting_RF_ET_LR",
+  "n_snapshots": 452,
+  "n_features": 659,
+  "n_rooms": 10,
+  "max_ssids": 500,
+  "min_ssid_frequency": 3,
+  "test_size": 0.2,
+  "random_state": 42,
+  "cv_acc_mean": 1.0,
+  "cv_acc_std": 0.0,
+  "cv_f1_macro_mean": 1.0,
+  "best_test_acc": 1.0,
+  "best_test_f1_macro": 1.0,
+  "label_classes": [
+    "P102",
+    "P103",
+    "P104",
+    "P202",
+    "P203",
+    "P204",
+    "S102",
+    "S103",
+    "S201",
+    "S203"
+  ],
+  "produced_by": "_train_alt_models.py",
+  "training_set": "raw_alt2"
+}

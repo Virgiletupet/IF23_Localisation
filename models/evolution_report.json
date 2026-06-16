@@ -1,0 +1,168 @@
+{
+  "global_table": [
+    {
+      "version": "v1 — legacy (6 BSSID)",
+      "classes": 16,
+      "features": 6,
+      "test_acc": 0.731404958677686,
+      "train_acc": 0.9641873278236914,
+      "cv_mean": 0.7189891355692016,
+      "n_train": 726.0,
+      "artifact": "..\\models\\legacy",
+      "snapshots": NaN,
+      "best_model": NaN
+    },
+    {
+      "version": "v2a — robust SSID",
+      "classes": 24,
+      "features": 74,
+      "test_acc": 0.9833333333333333,
+      "train_acc": NaN,
+      "cv_mean": NaN,
+      "n_train": NaN,
+      "artifact": "..\\models\\artifacts_robust_ssid",
+      "snapshots": 1498.0,
+      "best_model": "RandomForest"
+    },
+    {
+      "version": "v2b — robust full",
+      "classes": 24,
+      "features": 529,
+      "test_acc": 0.99,
+      "train_acc": NaN,
+      "cv_mean": NaN,
+      "n_train": NaN,
+      "artifact": "..\\models\\artifacts_robust",
+      "snapshots": 1498.0,
+      "best_model": "ExtraTrees"
+    },
+    {
+      "version": "v3 — advanced BSSID",
+      "classes": 26,
+      "features": 704,
+      "test_acc": 1.0,
+      "train_acc": NaN,
+      "cv_mean": NaN,
+      "n_train": NaN,
+      "artifact": "..\\models\\artifacts_v2",
+      "snapshots": 1587.0,
+      "best_model": "Voting_RF_ET_LR"
+    }
+  ],
+  "per_room_accuracy": {
+    "P101A": {
+      "v2a — robust SSID": 1.0,
+      "v3 — advanced BSSID": 1.0
+    },
+    "P101B": {
+      "v2a — robust SSID": 1.0,
+      "v3 — advanced BSSID": 1.0
+    },
+    "P102A": {
+      "v2a — robust SSID": 1.0,
+      "v3 — advanced BSSID": 1.0
+    },
+    "P102B": {
+      "v2a — robust SSID": 1.0,
+      "v3 — advanced BSSID": 1.0
+    },
+    "P103A": {
+      "v2a — robust SSID": 1.0,
+      "v3 — advanced BSSID": 1.0
+    },
+    "P202": {
+      "v2a — robust SSID": NaN,
+      "v3 — advanced BSSID": 1.0
+    },
+    "P203": {
+      "v2a — robust SSID": NaN,
+      "v3 — advanced BSSID": 1.0
+    },
+    "PALIER1ER": {
+      "v2a — robust SSID": 1.0,
+      "v3 — advanced BSSID": 1.0
+    },
+    "PALIER2E": {
+      "v2a — robust SSID": 1.0,
+      "v3 — advanced BSSID": 1.0
+    },
+    "S101A": {
+      "v2a — robust SSID": 1.0,
+      "v3 — advanced BSSID": 1.0
+    },
+    "S101B": {
+      "v2a — robust SSID": 1.0,
+      "v3 — advanced BSSID": 1.0
+    },
+    "S102A": {
+      "v2a — robust SSID": 1.0,
+      "v3 — advanced BSSID": 1.0
+    },
+    "S102B": {
+      "v2a — robust SSID": 1.0,
+      "v3 — advanced BSSID": 1.0
+    },
+    "S103B": {
+      "v2a — robust SSID": 1.0,
+      "v3 — advanced BSSID": 1.0
+    },
+    "S104": {
+      "v2a — robust SSID": 1.0,
+      "v3 — advanced BSSID": 1.0
+    },
+    "S202A": {
+      "v2a — robust SSID": 1.0,
+      "v3 — advanced BSSID": 1.0
+    },
+    "S202B": {
+      "v2a — robust SSID": 1.0,
+      "v3 — advanced BSSID": 1.0
+    },
+    "S203A": {
+      "v2a — robust SSID": 1.0,
+      "v3 — advanced BSSID": 1.0
+    },
+    "S203B": {
+      "v2a — robust SSID": 1.0,
+      "v3 — advanced BSSID": 1.0
+    },
+    "S204A": {
+      "v2a — robust SSID": 1.0,
+      "v3 — advanced BSSID": 1.0
+    },
+    "S204B": {
+      "v2a — robust SSID": 1.0,
+      "v3 — advanced BSSID": 1.0
+    },
+    "couloirB": {
+      "v2a — robust SSID": 1.0,
+      "v3 — advanced BSSID": 1.0
+    },
+    "couloirB(2e)": {
+      "v2a — robust SSID": 1.0,
+      "v3 — advanced BSSID": 1.0
+    },
+    "couloirPbasA": {
+      "v2a — robust SSID": 1.0,
+      "v3 — advanced BSSID": 1.0
+    },
+    "couloirPbasB": {
+      "v2a — robust SSID": 1.0,
+      "v3 — advanced BSSID": 1.0
+    },
+    "pallierPbas": {
+      "v2a — robust SSID": 1.0,
+      "v3 — advanced BSSID": 1.0
+    }
+  },
+  "evaluations": {
+    "v2a — robust SSID": {
+      "overall_acc": 1.0,
+      "overall_f1_macro": 1.0
+    },
+    "v3 — advanced BSSID": {
+      "overall_acc": 1.0,
+      "overall_f1_macro": 1.0
+    }
+  }
+}

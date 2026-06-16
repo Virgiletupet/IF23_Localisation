@@ -1,0 +1,161 @@
+{
+  "strategy_1": {
+    "description": "Train ALT1 only, test ALT2 (zones communes)",
+    "overall_accuracy": 0.47604790419161674,
+    "overall_f1_macro": 0.3264987734108073,
+    "n_zones_evaluated": 7,
+    "n_snapshots_test": 334,
+    "per_zone": [
+      {
+        "zone": "P102",
+        "n": 54,
+        "acc": 0.7962962962962963
+      },
+      {
+        "zone": "P103",
+        "n": 57,
+        "acc": 0.0
+      },
+      {
+        "zone": "P202",
+        "n": 26,
+        "acc": 1.0
+      },
+      {
+        "zone": "P203",
+        "n": 47,
+        "acc": 0.0
+      },
+      {
+        "zone": "S102",
+        "n": 59,
+        "acc": 0.8135593220338984
+      },
+      {
+        "zone": "S103",
+        "n": 51,
+        "acc": 0.8235294117647058
+      },
+      {
+        "zone": "S203",
+        "n": 40,
+        "acc": 0.0
+      }
+    ]
+  },
+  "strategy_2": {
+    "description": "Train ALT1 + 50% ALT2, test 50% remaining ALT2",
+    "overall_accuracy": 1.0,
+    "overall_f1_macro": 1.0,
+    "n_zones_evaluated": 10,
+    "n_snapshots_test": 226,
+    "per_zone": [
+      {
+        "zone": "P102",
+        "n": 27,
+        "acc": 1.0
+      },
+      {
+        "zone": "P103",
+        "n": 29,
+        "acc": 1.0
+      },
+      {
+        "zone": "P104",
+        "n": 20,
+        "acc": 1.0
+      },
+      {
+        "zone": "P202",
+        "n": 13,
+        "acc": 1.0
+      },
+      {
+        "zone": "P203",
+        "n": 24,
+        "acc": 1.0
+      },
+      {
+        "zone": "P204",
+        "n": 14,
+        "acc": 1.0
+      },
+      {
+        "zone": "S102",
+        "n": 29,
+        "acc": 1.0
+      },
+      {
+        "zone": "S103",
+        "n": 26,
+        "acc": 1.0
+      },
+      {
+        "zone": "S201",
+        "n": 24,
+        "acc": 1.0
+      },
+      {
+        "zone": "S203",
+        "n": 20,
+        "acc": 1.0
+      }
+    ]
+  },
+  "fusion_map_alt1": {
+    "P101A": "P101",
+    "P101B": "P101",
+    "P102A": "P102",
+    "P102B": "P102",
+    "P103A": "P103",
+    "P202": "P202",
+    "P203": "P203",
+    "PALIER1ER": "PALIER1ER",
+    "PALIER2E": "PALIER2E",
+    "S101A": "S101",
+    "S101B": "S101",
+    "S102A": "S102",
+    "S102B": "S102",
+    "S103B": "S103",
+    "S104": "S104",
+    "S202": "S202",
+    "S202A": "S202",
+    "S202B": "S202",
+    "S203A": "S203",
+    "S203B": "S203",
+    "S204A": "S204",
+    "S204B": "S204",
+    "couloirB": "couloirB",
+    "couloirB(2e)": "couloirB(2e)",
+    "couloirPbasA": "couloirPbas",
+    "couloirPbasB": "couloirPbas",
+    "pallierPbas": "pallierPbas"
+  },
+  "common_zones": [
+    "P102",
+    "P103",
+    "P202",
+    "P203",
+    "S102",
+    "S103",
+    "S203"
+  ],
+  "alt1_only_zones": [
+    "P101",
+    "PALIER1ER",
+    "PALIER2E",
+    "S101",
+    "S104",
+    "S202",
+    "S204",
+    "couloirB",
+    "couloirB(2e)",
+    "couloirPbas",
+    "pallierPbas"
+  ],
+  "alt2_new_zones": [
+    "P104",
+    "P204",
+    "S201"
+  ]
+}

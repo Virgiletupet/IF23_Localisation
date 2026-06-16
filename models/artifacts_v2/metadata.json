@@ -1,0 +1,111 @@
+{
+  "feature_scope": "SSID|BSSID compose",
+  "model_name": "Voting_RF_ET_LR",
+  "n_snapshots": 1587,
+  "n_features": 704,
+  "n_rooms": 26,
+  "max_ssids": 400,
+  "min_ssid_frequency": 3,
+  "test_size": 0.2,
+  "random_state": 42,
+  "cv_metrics": [
+    {
+      "model": "LogReg_L2",
+      "cv_acc_mean": 0.9921166474744016,
+      "cv_acc_std": 0.0035318396672708854,
+      "cv_f1_mean": 0.9899102839421964,
+      "cv_f1_std": 0.004489286118582511,
+      "fit_seconds": 12.17
+    },
+    {
+      "model": "RandomForest",
+      "cv_acc_mean": 0.9921197597335907,
+      "cv_acc_std": 0.004312794010683849,
+      "cv_f1_mean": 0.9900532703279218,
+      "cv_f1_std": 0.005613500438882884,
+      "fit_seconds": 5.08
+    },
+    {
+      "model": "ExtraTrees",
+      "cv_acc_mean": 0.9929040490492047,
+      "cv_acc_std": 0.005793844766829002,
+      "cv_f1_mean": 0.9907268674010755,
+      "cv_f1_std": 0.007319994334847953,
+      "fit_seconds": 3.93
+    },
+    {
+      "model": "HistGB",
+      "cv_acc_mean": 0.988176527341197,
+      "cv_acc_std": 0.008631268309224598,
+      "cv_f1_mean": 0.9873340334018266,
+      "cv_f1_std": 0.008680995405347718,
+      "fit_seconds": 404.99
+    },
+    {
+      "model": "Voting_RF_ET_LR",
+      "cv_acc_mean": 0.9944850767171889,
+      "cv_acc_std": 0.005339503103622727,
+      "cv_f1_mean": 0.9926574858022821,
+      "cv_f1_std": 0.006956142350827585,
+      "fit_seconds": 24.47
+    }
+  ],
+  "holdout_metrics": [
+    {
+      "model": "LogReg_L2",
+      "test_acc": 0.9968553459119497,
+      "test_f1_macro": 0.9959060547295842
+    },
+    {
+      "model": "RandomForest",
+      "test_acc": 0.9968553459119497,
+      "test_f1_macro": 0.9959060547295842
+    },
+    {
+      "model": "ExtraTrees",
+      "test_acc": 0.9968553459119497,
+      "test_f1_macro": 0.9959060547295842
+    },
+    {
+      "model": "HistGB",
+      "test_acc": 0.9968553459119497,
+      "test_f1_macro": 0.9970695970695971
+    },
+    {
+      "model": "Voting_RF_ET_LR",
+      "test_acc": 1.0,
+      "test_f1_macro": 1.0
+    }
+  ],
+  "best_test_acc": 1.0,
+  "best_test_f1_macro": 1.0,
+  "label_classes": [
+    "P101A",
+    "P101B",
+    "P102A",
+    "P102B",
+    "P103A",
+    "P202",
+    "P203",
+    "PALIER1ER",
+    "PALIER2E",
+    "S101A",
+    "S101B",
+    "S102A",
+    "S102B",
+    "S103B",
+    "S104",
+    "S202A",
+    "S202B",
+    "S203A",
+    "S203B",
+    "S204A",
+    "S204B",
+    "couloirB",
+    "couloirB(2e)",
+    "couloirPbasA",
+    "couloirPbasB",
+    "pallierPbas"
+  ],
+  "produced_by": "_quick_v2_train.py"
+}

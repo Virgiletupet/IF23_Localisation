@@ -1,0 +1,10 @@
+{
+  "type": "LogDistanceEstimator",
+  "n": 2.7817805296890397,
+  "d0": 1.0,
+  "n_bssid_ref": 73,
+  "fallback_rssi_ref": -45.0,
+  "source_file": "data/exports/RSSI0.xlsx",
+  "reference_timestamp": "2026-02-13 10:11:57.1",
+  "n_calibrated_on_synthetic": true
+}

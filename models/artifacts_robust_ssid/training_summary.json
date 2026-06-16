@@ -1,0 +1,100 @@
+{
+  "feature_scope": "SSID-only",
+  "model_name": "RandomForest",
+  "n_snapshots": 1498,
+  "n_features": 74,
+  "n_rooms": 24,
+  "max_ssids": 120,
+  "min_ssid_frequency": 5,
+  "test_size": 0.2,
+  "cv_metrics": [
+    {
+      "model": "ExtraTrees",
+      "cv_accuracy_mean": 0.9772985971943887,
+      "cv_accuracy_std": 0.004738607367310256,
+      "cv_f1_macro_mean": 0.9729816018093831,
+      "cv_f1_macro_std": 0.005063834337572918
+    },
+    {
+      "model": "RandomForest",
+      "cv_accuracy_mean": 0.9699585838343353,
+      "cv_accuracy_std": 0.002847413242435963,
+      "cv_f1_macro_mean": 0.9658926541796967,
+      "cv_f1_macro_std": 0.004799936765242433
+    },
+    {
+      "model": "LogisticRegression",
+      "cv_accuracy_mean": 0.9632865731462926,
+      "cv_accuracy_std": 0.0024637619360818735,
+      "cv_f1_macro_mean": 0.9613929291174638,
+      "cv_f1_macro_std": 0.005074059833168396
+    },
+    {
+      "model": "MLP_64_32",
+      "cv_accuracy_mean": 0.9325771543086172,
+      "cv_accuracy_std": 0.009008710089081199,
+      "cv_f1_macro_mean": 0.9325968688973104,
+      "cv_f1_macro_std": 0.009876037749986777
+    },
+    {
+      "model": "MLP_32",
+      "cv_accuracy_mean": 0.9132117568470274,
+      "cv_accuracy_std": 0.00963500174313506,
+      "cv_f1_macro_mean": 0.9106851763665474,
+      "cv_f1_macro_std": 0.014616829419831816
+    }
+  ],
+  "holdout_metrics": [
+    {
+      "model": "RandomForest",
+      "test_accuracy": 0.9833333333333333,
+      "test_f1_macro": 0.9821393729887361
+    },
+    {
+      "model": "ExtraTrees",
+      "test_accuracy": 0.9833333333333333,
+      "test_f1_macro": 0.9821393729887361
+    },
+    {
+      "model": "LogisticRegression",
+      "test_accuracy": 0.96,
+      "test_f1_macro": 0.9625204797742489
+    },
+    {
+      "model": "MLP_64_32",
+      "test_accuracy": 0.93,
+      "test_f1_macro": 0.9325602029721417
+    },
+    {
+      "model": "MLP_32",
+      "test_accuracy": 0.8866666666666667,
+      "test_f1_macro": 0.8898293075170812
+    }
+  ],
+  "label_classes": [
+    "P101A",
+    "P101B",
+    "P102A",
+    "P102B",
+    "P103A",
+    "PALIER1ER",
+    "PALIER2E",
+    "S101A",
+    "S101B",
+    "S102A",
+    "S102B",
+    "S103B",
+    "S104",
+    "S202A",
+    "S202B",
+    "S203A",
+    "S203B",
+    "S204A",
+    "S204B",
+    "couloirB",
+    "couloirB(2e)",
+    "couloirPbasA",
+    "couloirPbasB",
+    "pallierPbas"
+  ]
+}
