@@ -1,0 +1,5 @@
+modele,MAE_m,mediane_m,p90_m,max_m
+ExtraTrees,1.362,1.243,2.562,4.145
+RandomForest,1.492,1.291,2.625,4.467
+k-NN (dist),1.626,1.332,2.408,6.002
+Ridge,1.815,1.353,2.491,12.052

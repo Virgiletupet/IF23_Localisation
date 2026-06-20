@@ -1,0 +1,11 @@
+etape,accuracy
+"1. Test de base
+(split aléatoire)",0.9844444444444445
+"2. + séparation
+temporelle (CV)",0.8173301807548604
+"3. + holdout temporel
+strict (fin de session)",0.720620842572062
+"4. + retrait réseaux
+personnels",0.6962305986696231
+"5. + bruit de mesure
+(±4 dBm, ~live)",0.6518847006651884

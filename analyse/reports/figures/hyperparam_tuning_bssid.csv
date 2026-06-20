@@ -1,0 +1,4 @@
+modele,defaut,optimise,gain,params
+SVM (RBF),0.79,0.8,0.01,"{'C': 100, 'gamma': 0.001}"
+k-NN,0.743,0.771,0.028,"{'n_neighbors': 3, 'weights': 'distance'}"
+ExtraTrees,0.815,0.828,0.013,"{'max_depth': 24, 'min_samples_leaf': 2, 'n_estimators': 400}"

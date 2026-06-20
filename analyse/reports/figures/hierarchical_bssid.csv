@@ -1,0 +1,5 @@
+approche,accuracy
+Plat (24 salles),0.721
+Classification d'étage,0.94
+Hiérarchique (étage prédit -> salle),0.705
+Hiérarchique (étage oracle -> salle),0.765

@@ -1,0 +1,75 @@
+{
+  "model_name": "ExtraTrees",
+  "n_snapshots": 1498,
+  "n_features": 529,
+  "n_rooms": 24,
+  "max_bssids": 120,
+  "min_bssid_frequency": 5,
+  "test_size": 0.2,
+  "cv_metrics": [
+    {
+      "model": "ExtraTrees",
+      "cv_accuracy_mean": 0.9853119572478289,
+      "cv_accuracy_std": 0.005263941079521524,
+      "cv_f1_macro_mean": 0.983170247267893,
+      "cv_f1_macro_std": 0.007556514331970308
+    },
+    {
+      "model": "RandomForest",
+      "cv_accuracy_mean": 0.9806426185704743,
+      "cv_accuracy_std": 0.0024837636508710506,
+      "cv_f1_macro_mean": 0.9776606417514127,
+      "cv_f1_macro_std": 0.003024295784198593
+    },
+    {
+      "model": "LogisticRegression",
+      "cv_accuracy_mean": 0.9699612558450234,
+      "cv_accuracy_std": 0.0016101563897768798,
+      "cv_f1_macro_mean": 0.969061927808606,
+      "cv_f1_macro_std": 0.0027580815137105007
+    }
+  ],
+  "holdout_metrics": [
+    {
+      "model": "ExtraTrees",
+      "test_accuracy": 0.99,
+      "test_f1_macro": 0.9900133614618477
+    },
+    {
+      "model": "RandomForest",
+      "test_accuracy": 0.9833333333333333,
+      "test_f1_macro": 0.9838222771098439
+    },
+    {
+      "model": "LogisticRegression",
+      "test_accuracy": 0.96,
+      "test_f1_macro": 0.9639984578927646
+    }
+  ],
+  "label_classes": [
+    "P101A",
+    "P101B",
+    "P102A",
+    "P102B",
+    "P103A",
+    "PALIER1ER",
+    "PALIER2E",
+    "S101A",
+    "S101B",
+    "S102A",
+    "S102B",
+    "S103B",
+    "S104",
+    "S202A",
+    "S202B",
+    "S203A",
+    "S203B",
+    "S204A",
+    "S204B",
+    "couloirB",
+    "couloirB(2e)",
+    "couloirPbasA",
+    "couloirPbasB",
+    "pallierPbas"
+  ]
+}

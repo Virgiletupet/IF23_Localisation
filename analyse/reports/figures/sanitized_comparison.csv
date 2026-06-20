@@ -1,0 +1,4 @@
+jeu_features,n_features,n_reseaux,holdout_temp_acc,holdout_temp_bal,holdout_temp_macroF1,groupkfold_acc,groupkfold_std
+all,529,104,0.721,0.713,0.679,0.817,0.042
+institution,359,70,0.685,0.66,0.629,0.757,0.046
+perso,179,34,0.745,0.734,0.696,0.796,0.047

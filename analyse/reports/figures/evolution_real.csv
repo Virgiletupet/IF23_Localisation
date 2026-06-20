@@ -1,0 +1,4 @@
+strategie,accuracy,f1_macro
+S1: ALT1 -> ALT2 (drift pur),0.475,0.215
+S2: ALT1+50%ALT2 -> reste,0.996,0.996
+S3: ALT1+ALT2 -> ALT3,,
